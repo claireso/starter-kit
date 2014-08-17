@@ -101,7 +101,7 @@ gulp.task('watchcss', function() {
 });
 
 /*****************************************************************************
-    DEPLOY TASKS
+    DEPLOY TASK
 *****************************************************************************/
 gulp.task('deploy', ['buildjs', 'buildcss'], function() {
     return true
