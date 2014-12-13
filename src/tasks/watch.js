@@ -3,5 +3,5 @@ var gulp = require('gulp'),
 
 gulp.task('watch', function() {
     gulp.watch(paths.styles + '**/*.styl', ['styles']);
-    gulp.watch(paths.scripts + '**/*.js', ['scripts']);
+    gulp.watch(paths.scripts + '**/*.js', ['browserify']);
 });

@@ -1,3 +1,3 @@
-(function(){
-    console.log('module b');
-})()
+module.exports = function() {
+    console.log('init b');
+};

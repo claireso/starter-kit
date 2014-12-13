@@ -1,3 +1,7 @@
+var a = require('./modules/a'),
+    b = require('./modules/b');
+
 (function(){
-    console.log('base.js')
-})()
+    a();
+    b();
+})();
