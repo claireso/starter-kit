@@ -1,5 +1,5 @@
-var gulp = require('gulp'),
-    del = require('del'),
+var gulp  = require('gulp'),
+    del   = require('del'),
     paths = require('../config.js');
 
 gulp.task('cleanStyles', function() {

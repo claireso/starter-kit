@@ -1,6 +1,6 @@
-var gulp = require('gulp'),
+var gulp   = require('gulp'),
     uglify = require('gulp-uglify'),
-    paths = require('../config.js');
+    paths  = require('../config.js');
 
 gulp.task('buildjs', ['browserify'], function() {
     return gulp.src([paths.dist + paths.scripts + '**/*.js', '!' + paths.dist + paths.scripts + 'vendor/'])

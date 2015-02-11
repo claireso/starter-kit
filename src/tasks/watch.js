@@ -1,5 +1,5 @@
-var gulp = require('gulp'),
-    paths = require('../config.js'),
+var gulp        = require('gulp'),
+    paths       = require('../config.js'),
     browserSync = require('browser-sync');
 
 gulp.task('watch', ['browser-sync'], function() {
